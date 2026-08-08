@@ -1,75 +1,77 @@
-<<<<<<< HEAD
-# Getting Started with Create React App
+# 🎓 Favourite Student List
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A simple React JS application that allows users to view a list of students and manage their favourite students.
 
-## Available Scripts
+This project demonstrates **React Router**, **useContext**, **createContext**, **useState**, conditional rendering, and dynamic rendering using the `map()` method.
 
-In the project directory, you can run:
+## 🚀 Live Demo
 
-### `npm start`
+🔗 Live Demo: https://student-app-iota-three.vercel.app/
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## 📌 Features
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+- 📋 Display a list of students
+- ⭐ Add students to the favourite list
+- 🚫 Prevent duplicate students from being added
+- ❌ Remove students from the favourite list
+- 🔄 Favourite list updates instantly
+- 🌐 Navigate between pages without page reload
+- 📱 Responsive user interface
+- ⚛️ Global state management using React Context API
+- 🔀 Client-side routing using React Router
+- 🎨 Styled using normal CSS
 
-### `npm test`
+## 📄 Pages
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### 1. Student List
 
-### `npm run build`
+Displays all available students with:
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- Student name
+- Roll number / ID
+- Add to Favourite button
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+### 2. Favourite Students
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Displays all students added to the favourite list.
 
-### `npm run eject`
+If no students have been added, the application displays:
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+> No favourite students added yet
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## 🛠️ Technologies Used
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+- React JS
+- Vite
+- React Router DOM
+- React Context API
+- `useContext`
+- `useState`
+- JavaScript
+- HTML
+- CSS
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+## 🧠 React Concepts Used
 
-## Learn More
+### `createContext()`
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+Used to create a global Student Context for managing favourite students.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+### `useContext()`
 
-### Code Splitting
+Used to access the favourite student data and functions from different components.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+### `useState()`
 
-### Analyzing the Bundle Size
+Used to manage the favourite student list.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+### `map()`
 
-### Making a Progressive Web App
+Used to dynamically display student data.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+### Conditional Rendering
 
-### Advanced Configuration
+Used to display either the favourite students or the message:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
-=======
-# Student-App
-A React JS application demonstrating React Router, Context API, useContext, and favourite student management with responsive CSS styling.
->>>>>>> 47434eaf6119daae7f17817098a3b1c2552ce6d2
+```text
+No favourite students added yet
