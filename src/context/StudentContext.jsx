@@ -20,7 +20,7 @@ const studentsData = [
   },
   {
     id: 4,
-    name: "Priya",
+    name: "Chiyan Vikram",
     rollNumber: "STU004",
   },
   {
@@ -30,7 +30,7 @@ const studentsData = [
   },
   {
     id: 6,
-    name: "Ajith",
+    name: "Ajith Kumar",
     rollNumber: "STU006",
   },
 ];
