@@ -25,12 +25,12 @@ const studentsData = [
   },
   {
     id: 5,
-    name: "Divya",
+    name: "Joseph Vijay",
     rollNumber: "STU005",
   },
   {
     id: 6,
-    name: "Karthik",
+    name: "Ajith",
     rollNumber: "STU006",
   },
 ];
