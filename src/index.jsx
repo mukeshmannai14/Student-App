@@ -1,0 +1,15 @@
+import { StrictMode } from "react";
+import { createRoot } from "react-dom/client";
+
+import App from "./App";
+import StudentProvider from "./context/StudentContext";
+
+import "./index.css";
+
+createRoot(document.getElementById("root")).render(
+  <StrictMode>
+    <StudentProvider>
+      <App />
+    </StudentProvider>
+  </StrictMode>
+);
